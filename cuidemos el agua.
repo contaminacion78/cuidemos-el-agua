@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cuidemos el Agua</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Cuidemos el Agua</h1>
+    <p>Pequeñas acciones, grandes cambios.</p>
+  </header>
+
+  <section id="importancia">
+    <h2>¿Por qué es importante cuidar el agua?</h2>
+    <p>El agua es un recurso vital para la vida. Sin ella, ningún ser vivo puede sobrevivir. Además, el acceso al agua potable es un derecho que debemos proteger para nosotros y futuras generaciones.</p>
+  </section>
+
+  <section id="consejos">
+    <h2>Consejos para ahorrar agua</h2>
+    <ul>
+      <li>Cierra la llave mientras te cepillas los dientes.</li>
+      <li>Repara fugas en grifos y tuberías.</li>
+      <li>Usa la lavadora con cargas completas.</li>
+      <li>Riega las plantas por la noche para evitar evaporación.</li>
+      <li>Reutiliza el agua de la lavadora para limpiar pisos o patios.</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Tienes más ideas? ¡Compártelas!</p>
+    <p>Email: cuidemoselagua@email.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Cuidemos el Agua | Diseñado con conciencia</p>
+  </footer>
+</body>
+</html>
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+header {
+  background-color: #00aaff;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+section {
+  padding: 30px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #0077cc;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}  
